@@ -1,5 +1,7 @@
 # adjuST
 
+[![Travis build status](https://travis-ci.org/achafetz/adjuST.svg?branch=master)](https://travis-ci.org/achafetz/adjuST)
+
 The scripts here are used to adjust to the COP19 Site Tool. 
 
 ### Adjustments & Dependent Indicators

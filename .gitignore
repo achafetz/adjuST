@@ -1,3 +1,7 @@
 .Rhistory
 .RData
 .Rproj.user
+
+out/
+tools/
+*.xlsx
