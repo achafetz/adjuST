@@ -2,6 +2,7 @@
 
 export("%>%")
 export(add_groupings)
+export(apply_distro)
 export(convert_na)
 export(import_tab)
 importFrom(magrittr,"%>%")
