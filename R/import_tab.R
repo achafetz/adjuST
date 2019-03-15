@@ -8,8 +8,10 @@
 import_tab <- function(path, sheetname){
 
   #import sheet from site tool
-  df <- readxl::read_excel(path_sitetool,
+  df <- readxl::read_excel(path,
                            sheet = sheetname,
                            skip = 4)
+
+  return(df)
 
 }
