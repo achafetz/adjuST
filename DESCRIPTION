@@ -1,12 +1,18 @@
 Package: adjuST
-Title: What the Package Does (One Line, Title Case)
+Title: Adjust Site Tool Targets
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Aaron",
+           family = "Chafetz",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "achafetz@usaid.gov")
+Description: This packages helps users automate changes to the COP19 Site Tool. 
+    The process was created in Tanzania to fix distribution issues as a result of 
+    how targets were set during COP18.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+URL: https://github.com/achafetz/adjuST
+BugReports: https://github.com/achafetz/adjuST/issues
