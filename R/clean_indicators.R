@@ -13,7 +13,7 @@ clean_indicators <- function(df){
     df <- df %>%
       tidyr::separate(indicatorcode,
                       c("indicator", "numeratordenom", "disaggregate", NA, "otherdisaggregate"),
-                      sep = "\\."))
+                      sep = "\\.", remove = FALSE))
 
   #result status
   df <- df %>%
