@@ -4,6 +4,8 @@
 
 The scripts here are used to adjust to the COP19 Site Tool. 
 
+The general process figured out the mechanism-PSNU-coarse age distribution across Age and Sex and applies it down to all the sites it applies to.
+
 ### Adjustments & Dependent Indicators
 
 Site Tool Distribution agreements: [kernel indicator -> apply to dependent indicators]
