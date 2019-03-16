@@ -6,7 +6,7 @@
 
 convert_na <- function(df){
 
-  df <- dplyr::mutate_if(df, is.numeric, ~ ifelse(is.na(.), 0, .))
+  df <- dplyr::mutate_if(df, is.numeric, ~ ifelse(!is.finite(.), 0, .))
 
   return(df)
 }
