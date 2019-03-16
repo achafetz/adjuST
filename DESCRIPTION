@@ -23,4 +23,5 @@ Imports:
     dplyr,
     tidyr,
     stringr,
-    tibble
+    tibble,
+    openxlsx
