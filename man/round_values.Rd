@@ -4,12 +4,10 @@
 \alias{round_values}
 \title{Rounding Strategy}
 \usage{
-round_values(df, ...)
+round_values(df)
 }
 \arguments{
 \item{df}{dataframe}
-
-\item{...}{indicators to round}
 }
 \description{
 Rounding Strategy
