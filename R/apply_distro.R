@@ -15,10 +15,11 @@ apply_distro <- function(df, df_distro, ...){
   df_join <- dplyr::left_join(df, df_distro)
   #)
   df_join <- df_join %>%
-    dplyr:: group_by(psnu, Mechanism, sitename, AgeCoarse) %>%
+    dplyr:: group_by(psnu, Mechanism, sitename, ageCoarse) %>%
     dplyr::mutate_at(dplyr::vars(!!!indicator_quo), ~ distro * sum(.)) %>%
     dplyr::ungroup() %>%
     dplyr::select(-distro)
+
 
   return(df_join)
 }

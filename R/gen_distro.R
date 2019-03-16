@@ -18,7 +18,7 @@ gen_distro <- function(df, indicator, ...){
     dplyr::group_by(!!!group_var) %>%
     dplyr::summarize_at(dplyr::vars(!!!indicator_enquo), sum, na.rm = TRUE) %>%
     dplyr::ungroup() %>%
-    dplyr::group_by(psnu, Mechanism, AgeCoarse) %>%
+    dplyr::group_by(psnu, Mechanism, ageCoarse) %>%
     dplyr::mutate(distro = !!indicator_quo / sum(!!indicator_quo)) %>%
     dplyr::ungroup() %>%
     dplyr::select(-!!indicator_quo)
