@@ -25,3 +25,6 @@ Imports:
     stringr,
     tibble,
     openxlsx
+Suggests:
+    scales,
+    knitr
